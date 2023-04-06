@@ -1,0 +1,9 @@
+*.html
+Project Logs of *
+Project Outputs of *
+SCH/History*
+SCH/__Previews*
+PCB/History*
+PCB/__Previews*
+History*
+__Previews*

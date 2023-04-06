@@ -1,0 +1,385 @@
+#include <hidef.h> /* for EnableInterrupts macro */
+#include "derivative.h" /* include peripheral declarations */
+//
+// V7 - Placa Azul
+//
+//DEFINE GENERALES  
+// RESET - 1 , BKGD - 2
+// VDD - 3 , GND - 4
+#define _W PTADD_PTADD1 = 0 //HEAT
+#define W PTAD_PTAD1       
+#define _G PTADD_PTADD3 = 0 //COOL
+#define G PTAD_PTAD3
+#define _EXTGAS PTBDD_PTBDD1 = 1 // EXTRACTOR
+#define EXTGAS PTBD_PTBD1
+#define _FAN PTBDD_PTBDD2 = 1 // FAN
+#define FAN PTBD_PTBD2
+#define _VACIO PTADD_PTADD0 = 0 // SENSOR DE VACIO
+#define VACIO PTAD_PTAD0
+#define _LIMITE PTBDD_PTBDD3 = 0 // SENSOR LIMITE
+#define LIMITE PTBD_PTBD3
+#define _VALV PTCDD_PTCDD1 = 0 // SENSOR VALVULA
+#define VALV PTCD_PTCD1
+#define _RED PTCDD_PTCDD3 = 1 // LED BICOLOR ESTADO
+#define RED PTCD_PTCD3 
+#define _GREEN PTCDD_PTCDD2 = 1 // LED BICOLOR ESTADO
+#define GREEN PTCD_PTCD2
+
+#define CLOSE 1
+#define OPEN 0
+
+#define FAIL_LIMIT 3
+#define ERROR 1
+#define CLEAR 0
+
+#define G_sw 0
+#define W_sw 1
+#define LIM_sw 2
+#define VALV_sw 3
+#define VACIO_sw 4
+
+#define ON 1
+#define OFF 0
+#define HEAT 1
+#define COOL 2
+#define HEAT_VENT 3
+
+//PROTOTIPOS FUNCIONES
+void uC_init(void);			 // Inicializacion de puertos
+void timer_init(void);		 // Inicializacion de timer
+void input_chk(void);        // Procesa las entradas para trabajar con las '_sw'
+void proc_state_vars(void);  // Trabaja con las variables de estado
+void main_sys(void);         // Procesos principales
+void indicator_update(void); // Configura led visual segun caso
+void heat_process(void);	 // Secuencia para calor
+void cool_process(void);	 // Secuencia para frio
+
+//VARIABLES
+unsigned short int proc_heat = 1, proc_cool = 1, sys = 0, cont = 0, cont_c = 0, hab_timer = 0, hab_timer_c = 0;
+unsigned short int fail_times = 0, fail_state = 0;
+unsigned short int state_vars[5] = {0,0,1,0,0}; // Son las que uso
+unsigned short int input_state[5] = {0,0,1,0,0}, count_vars[5] = {0,0,0,0,0};
+
+// sys: 0 - Apagado
+//	    1 - Calor
+//      2 - Frio
+//		3 - Calor + Ventilacion Fija
+
+void main(void) {
+	  SOPT1 = SOPT1 & 0x3F;
+	  asm {
+		  LDA $FFAF
+		  STA ICSTRM
+		  }
+	  while(!ICSSC_IREFST);
+	
+	  uC_init();
+	  timer_init();
+	  
+	  RED = 0;
+	  GREEN = 1;
+	  
+	  EnableInterrupts;
+
+  for(;;) {
+    proc_state_vars();
+    main_sys();
+  } 
+
+}
+
+__interrupt 11 void timer (void){ // Cada 0.5 segundos
+	
+	if(hab_timer == 1){ // Contador general
+		cont++;
+	}else{
+		cont = 0;
+	}
+	
+	if(hab_timer_c == 1){ // Contador general
+		cont_c++;
+	}else{
+		cont_c = 0;
+	}
+	
+	input_chk();
+	indicator_update();
+	
+	TPM1SC_TOF = 0;
+}
+
+void input_chk(void){
+	unsigned int i = 0;
+	// Leo entradas actuales
+	input_state[0] = G;
+	input_state[1] = W;
+	input_state[2] = LIMITE;
+	input_state[3] = VALV;
+	input_state[4] = VACIO;
+	// Proceso nuevos estados
+	for(i = 0; i < 6; i++){
+		if(input_state[i] != state_vars[i]){
+			if((input_state[i] == CLOSE)&&(state_vars[i] == OPEN)){
+				count_vars[i]++;
+				if(count_vars[i] == 5){ // 2.5 SEG 
+					state_vars[i] = CLOSE;
+				}
+			}
+			else if((input_state[i] == OPEN)&&(state_vars[i] == CLOSE)){
+				count_vars[i]++;
+				if(count_vars[i] == 5){ // 2.5 SEG 
+					state_vars[i] = OPEN;
+				}
+			}
+		}else{
+			if(count_vars[i] != 0) count_vars[i] = 0;
+		}
+	}
+	
+}
+
+void proc_state_vars(void){
+	if(state_vars[LIM_sw] == CLOSE){ // Funcionamiento normal
+		if(sys == OFF){
+			if(state_vars[G_sw] == CLOSE){
+				sys = COOL;
+			}else if(state_vars[W_sw] == CLOSE){
+				sys = HEAT;
+			}
+		}
+		
+		if(fail_state == ERROR){
+			fail_state = CLEAR;
+			if(state_vars[G_sw] == OPEN){
+				FAN = OFF;
+			}
+			proc_heat = 1;
+		}
+	}
+	if(state_vars[LIM_sw] == OPEN){ // Limite abierto
+		if(fail_state == CLEAR){
+			fail_state = ERROR;
+			fail_times++;
+			if(fail_times >= FAIL_LIMIT){
+				sys = HEAT;
+				hab_timer = 0;
+				cont = 0;
+				proc_heat = 5;
+				EXTGAS = OFF;
+				FAN = ON;
+				while(1){
+					// Endless blocking
+				}
+			}
+		}
+		if((sys != HEAT)||(proc_heat != 5)){
+			sys = HEAT;
+			hab_timer = 0;
+			cont = 0;
+			hab_timer_c = 0;
+			cont_c = 0;
+			proc_cool = 1;
+			proc_heat = 5;
+			EXTGAS = OFF;
+			FAN = ON;
+		}
+		if(EXTGAS == ON){
+			EXTGAS = OFF;
+		}
+	}
+}
+
+void main_sys(void){
+	switch(sys){
+	case OFF:
+		// Nada para hacer
+		break;
+	case COOL:
+		cool_process();
+		break;
+	case HEAT:
+		heat_process();
+		break;
+	case HEAT_VENT:
+		cool_process();
+		heat_process();
+	}
+}
+
+void indicator_update(void){
+	if(fail_times >= FAIL_LIMIT){
+		GREEN = 0;
+		RED = 1;
+	}
+	else{
+		if(state_vars[LIM_sw] == CLOSE){
+			if((sys == HEAT)&&(proc_heat == 3)){
+				RED = 0;
+				GREEN = ~GREEN;
+			}else if((sys == HEAT)&&(proc_heat == 1)&&(state_vars[VACIO_sw] == CLOSE)){
+				if(GREEN == RED){
+					GREEN = 0;
+					RED = 1;
+				}else{
+					GREEN = ~GREEN;
+					RED = ~RED;
+				}
+			}else{
+				RED = 0;
+				if(GREEN == OFF){
+					GREEN = ON;
+				}
+			}
+		}else if(state_vars[LIM_sw] == OPEN){
+			GREEN = 0;
+			RED = ~RED;
+		}
+	}
+}
+
+void cool_process(void){
+	switch(proc_cool){
+	case 1:
+		hab_timer_c = 1;
+		cont_c = 0;
+		proc_cool = 2;
+		break;
+	case 2:
+		if((cont_c == 20)||(FAN == ON)){ // 10 Segundos
+			FAN = ON;
+			hab_timer_c = 0;
+			cont_c = 0;
+			proc_cool = 3;
+		}
+		break;
+	case 3:
+		// Funcionando
+		break;
+	}
+	if(sys != OFF){
+		if(sys == COOL){
+			if(state_vars[G_sw] == OPEN){
+				hab_timer_c = 0;
+				cont_c = 0;
+				proc_cool = 1;
+				FAN = OFF;
+				sys = OFF;
+			}else if(state_vars[W_sw] == CLOSE){
+				sys = HEAT_VENT;
+			}
+		}else if(sys == HEAT_VENT){
+			if(state_vars[G_sw] == OPEN){
+				hab_timer_c = 0;
+				cont_c = 0;
+				proc_cool = 1;
+				sys = HEAT;
+				if(proc_heat < 5){
+					FAN = OFF;
+				}
+			}else if(state_vars[W_sw] == OPEN){
+				if(EXTGAS == OFF){
+					hab_timer = 0;
+					cont = 0;
+					proc_heat = 1;
+					sys = COOL;
+				}
+			}
+		}
+	}
+}
+
+void heat_process(void){
+	switch(proc_heat){
+	case 1:
+		if(state_vars[VACIO_sw] == OPEN){ // Checkeo sensor de vacio
+			hab_timer = 1;
+			cont = 0;
+			proc_heat = 2;
+		}
+		break;
+	case 2:
+		if(state_vars[VACIO_sw] == CLOSE){ // Checkeo sensor de vacio
+			hab_timer = 0;
+			cont = 0;
+			proc_heat = 1;
+		}
+		if(cont == 20){ // 10 segundos
+			EXTGAS = ON;
+			hab_timer = 0;
+			cont = 0;
+			proc_heat = 3;
+		}
+		break;
+	case 3:
+		if(state_vars[VALV_sw] == CLOSE){ // Espera valvula
+			proc_heat = 4;
+			hab_timer = 1;
+			cont = 0;
+		}
+		break;
+	case 4:
+		if((cont == 40)||(FAN == ON)){ // 20 segundos
+			FAN = ON;
+			hab_timer = 0;
+			cont = 0;
+			proc_heat = 5;
+		}
+		break;
+	case 5:
+		// Funcionamiento
+		break;
+	case 6:
+		if((cont == 40)||(EXTGAS == OFF)){ // 20 segundos
+			EXTGAS = OFF;
+			cont = 0;
+			proc_heat = 7;
+		}
+		break;
+	case 7:
+		if((cont == 310)||(FAN == OFF)){ // 2 min 35 seg
+			FAN = OFF;
+			hab_timer = 0;
+			cont = 0;
+			sys = OFF;
+			proc_heat = 1;
+		}
+		break;
+	}
+	
+	if(sys != OFF){
+		if((state_vars[W_sw] == OPEN)&&(proc_heat <= 5)&&(state_vars[LIM_sw] == CLOSE)){ // Corta señal
+			proc_heat = 6;
+			hab_timer = 1;
+			cont = 0;
+		}
+		if((state_vars[W_sw] == CLOSE)&&(proc_heat > 5)){ // Vuelve señal antes de terminar anterior
+			hab_timer = 0;
+			cont = 0;
+			if(EXTGAS == ON){
+				proc_heat = 5;
+			}else{
+				proc_heat = 1;
+			}
+		}
+		if((state_vars[G_sw] == CLOSE)&&(state_vars[LIM_sw] == CLOSE)){
+			sys = HEAT_VENT;
+		}
+	}
+}
+
+void uC_init(void){
+	_W;
+	_G;
+	_EXTGAS;
+	_FAN;
+	_VACIO;
+	_LIMITE;
+	_VALV;
+	_RED;
+	_GREEN;
+}
+
+void timer_init(void){
+	TPM1MOD = 31249;
+	TPM1SC = 0x4F;
+}

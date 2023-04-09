@@ -43,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=For Assembly
 
 [Preferences]
 PrefsVaultGUID=
@@ -114,7 +115,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=YANJWDMV
 
 [Document5]
 DocumentPath=SCH\Actuators_Interface.SchDoc
@@ -199,7 +200,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=YORSWUGF
 
 [Document10]
 DocumentPath=SCH\Input_TAB.SchDoc

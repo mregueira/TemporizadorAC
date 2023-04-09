@@ -131,7 +131,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=UAMLUXFD
 
 [Document6]
 DocumentPath=Sensors_Interface.Harness
@@ -216,7 +216,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=NNOEBHIE
 
 [Document11]
 DocumentPath=SCH\Output_TAB.SchDoc
@@ -233,7 +233,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=KVJWRNYI
 
 [Document12]
 DocumentPath=Input_TAB.Harness
@@ -301,7 +301,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=JVDXOPPI
 
 [Document16]
 DocumentPath=SCH\Sensors_Interface.Harness
@@ -387,6 +387,14 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueID=4A593F08-E88C-48EA-817D-45FE1382A278
+Description=For Assembly
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Temporizador_V7\Design Rule Check - TEMP007-1P-2O.html

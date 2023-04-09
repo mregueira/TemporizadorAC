@@ -1,0 +1,4 @@
+Change Component DesignItemId : Designator=R1_ACT_INT Old DesignItemId=RES-THT New DesignItemId=RES-SMD
+Change Component DesignItemId : Designator=R2_ACT_INT Old DesignItemId=RES-THT New DesignItemId=RES-SMD
+Change Component Footprint: Designator=R1_ACT_INT Old Footprint=RES400 New Footprint=0805-RES-PANASONIC
+Change Component Footprint: Designator=R2_ACT_INT Old Footprint=RES400 New Footprint=0805-RES-PANASONIC

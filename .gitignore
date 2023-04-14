@@ -5,5 +5,7 @@ SCH/History*
 SCH/__Previews*
 PCB/History*
 PCB/__Previews*
+*.txt
+PCB/*.txt
 History*
 __Previews*

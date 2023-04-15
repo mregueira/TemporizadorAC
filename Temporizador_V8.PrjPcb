@@ -423,108 +423,124 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document23]
+DocumentPath=DOC\jobs\JLCPCB-2Layer.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=4A593F08-E88C-48EA-817D-45FE1382A278
 Description=For Assembly
 AllowFabrication=0
 ParameterCount=0
-VariationCount=33
-Variation1=Designator=J17_IN_TAB|UniqueId=\QCNTJCFR\EGUOVXHF|Kind=1|AlternatePart= 
-Variation2=Designator=J1_IN_TAB|UniqueId=\QCNTJCFR\RVGJFGAO|Kind=1|AlternatePart= 
-Variation3=Designator=J2_IN_TAB|UniqueId=\QCNTJCFR\ICOWGUTY|Kind=1|AlternatePart= 
-Variation4=Designator=J3_IN_TAB|UniqueId=\QCNTJCFR\RJTNLDDY|Kind=1|AlternatePart= 
-Variation5=Designator=J4_IN_TAB|UniqueId=\QCNTJCFR\PBIRFPGW|Kind=1|AlternatePart= 
-Variation6=Designator=J6_IN_TAB|UniqueId=\QCNTJCFR\NCTCLQAV|Kind=1|AlternatePart= 
-Variation7=Designator=J5_IN_TAB|UniqueId=\QCNTJCFR\DQNYCBIJ|Kind=1|AlternatePart= 
-Variation8=Designator=J7_IN_TAB|UniqueId=\QCNTJCFR\EIZKJBIS|Kind=1|AlternatePart= 
-Variation9=Designator=J8_IN_TAB|UniqueId=\QCNTJCFR\DUIVTFMH|Kind=1|AlternatePart= 
-Variation10=Designator=J9_IN_TAB|UniqueId=\QCNTJCFR\TWYEYHAP|Kind=1|AlternatePart= 
-Variation11=Designator=J10_IN_TAB|UniqueId=\QCNTJCFR\OCHAEUBN|Kind=1|AlternatePart= 
-Variation12=Designator=J18_IN_TAB|UniqueId=\QCNTJCFR\OWZAEKWC|Kind=1|AlternatePart= 
-Variation13=Designator=J16_IN_TAB|UniqueId=\QCNTJCFR\ISWYDMHH|Kind=1|AlternatePart= 
-Variation14=Designator=J15_IN_TAB|UniqueId=\QCNTJCFR\KDOWMEWJ|Kind=1|AlternatePart= 
-Variation15=Designator=J14_IN_TAB|UniqueId=\QCNTJCFR\WIOFSLXF|Kind=1|AlternatePart= 
-Variation16=Designator=J13_IN_TAB|UniqueId=\QCNTJCFR\SRHBSKED|Kind=1|AlternatePart= 
-Variation17=Designator=J12_IN_TAB|UniqueId=\QCNTJCFR\THQKEUTZ|Kind=1|AlternatePart= 
-Variation18=Designator=J11_IN_TAB|UniqueId=\QCNTJCFR\ZKGOCTDG|Kind=1|AlternatePart= 
-Variation19=Designator=U2_POW|UniqueId=\GIAEYAMI\DHNCSMAO|Kind=1|AlternatePart= 
-Variation20=Designator=U1_POW|UniqueId=\GIAEYAMI\BZUXGELW|Kind=1|AlternatePart= 
-Variation21=Designator=J1_DEBUG|UniqueId=\AAFQINJZ\MEFXHTKW|Kind=1|AlternatePart= 
-Variation22=Designator=J2_DEBUG|UniqueId=\AAFQINJZ\PNSVSNEM|Kind=1|AlternatePart= 
-Variation23=Designator=J3_DEBUG|UniqueId=\AAFQINJZ\FEYSYUQI|Kind=1|AlternatePart= 
-Variation24=Designator=U1_ACT_INT|UniqueId=\FIEZYFGV\XYLOJATV|Kind=1|AlternatePart= 
-Variation25=Designator=M1_ACT_INT|UniqueId=\FIEZYFGV\EMJAHOKE|Kind=1|AlternatePart= 
-Variation26=Designator=M2_ACT_INT|UniqueId=\FIEZYFGV\BWLFBVBK|Kind=1|AlternatePart= 
-Variation27=Designator=DL1_ACT_INT|UniqueId=\FIEZYFGV\NLHSWGIN|Kind=1|AlternatePart= 
-Variation28=Designator=J1_OUT_TAB|UniqueId=\EYHFUZXW\VPWPKNYD|Kind=1|AlternatePart= 
-Variation29=Designator=J2_OUT_TAB|UniqueId=\EYHFUZXW\VUUAECDC|Kind=1|AlternatePart= 
-Variation30=Designator=RP2_POW|UniqueId=\GIAEYAMI\GBHAGIHF|Kind=1|AlternatePart= 
-Variation31=Designator=RP1_POW|UniqueId=\GIAEYAMI\QNEOGPHI|Kind=1|AlternatePart= 
-Variation32=Designator=DZ1_POW|UniqueId=\GIAEYAMI\KPXKBCSG|Kind=1|AlternatePart= 
-Variation33=Designator=R10_POW|UniqueId=\GIAEYAMI\YDKGGOTO|Kind=1|AlternatePart= 
+VariationCount=28
+Variation1=Designator=R10_POW|UniqueId=\GIAEYAMI\YDKGGOTO|Kind=1|AlternatePart= 
+Variation2=Designator=U1_POW|UniqueId=\GIAEYAMI\BZUXGELW|Kind=1|AlternatePart= 
+Variation3=Designator=U2_POW|UniqueId=\GIAEYAMI\DHNCSMAO|Kind=1|AlternatePart= 
+Variation4=Designator=J1_DEBUG|UniqueId=\AAFQINJZ\MEFXHTKW|Kind=1|AlternatePart= 
+Variation5=Designator=J2_DEBUG|UniqueId=\AAFQINJZ\PNSVSNEM|Kind=1|AlternatePart= 
+Variation6=Designator=J3_DEBUG|UniqueId=\AAFQINJZ\FEYSYUQI|Kind=1|AlternatePart= 
+Variation7=Designator=M2_ACT_INT|UniqueId=\FIEZYFGV\BWLFBVBK|Kind=1|AlternatePart= 
+Variation8=Designator=M1_ACT_INT|UniqueId=\FIEZYFGV\EMJAHOKE|Kind=1|AlternatePart= 
+Variation9=Designator=J17_IN_TAB|UniqueId=\QCNTJCFR\EGUOVXHF|Kind=1|AlternatePart= 
+Variation10=Designator=J1_IN_TAB|UniqueId=\QCNTJCFR\RVGJFGAO|Kind=1|AlternatePart= 
+Variation11=Designator=J2_IN_TAB|UniqueId=\QCNTJCFR\ICOWGUTY|Kind=1|AlternatePart= 
+Variation12=Designator=J3_IN_TAB|UniqueId=\QCNTJCFR\RJTNLDDY|Kind=1|AlternatePart= 
+Variation13=Designator=J4_IN_TAB|UniqueId=\QCNTJCFR\PBIRFPGW|Kind=1|AlternatePart= 
+Variation14=Designator=J6_IN_TAB|UniqueId=\QCNTJCFR\NCTCLQAV|Kind=1|AlternatePart= 
+Variation15=Designator=J5_IN_TAB|UniqueId=\QCNTJCFR\DQNYCBIJ|Kind=1|AlternatePart= 
+Variation16=Designator=J7_IN_TAB|UniqueId=\QCNTJCFR\EIZKJBIS|Kind=1|AlternatePart= 
+Variation17=Designator=J8_IN_TAB|UniqueId=\QCNTJCFR\DUIVTFMH|Kind=1|AlternatePart= 
+Variation18=Designator=J9_IN_TAB|UniqueId=\QCNTJCFR\TWYEYHAP|Kind=1|AlternatePart= 
+Variation19=Designator=J10_IN_TAB|UniqueId=\QCNTJCFR\OCHAEUBN|Kind=1|AlternatePart= 
+Variation20=Designator=J18_IN_TAB|UniqueId=\QCNTJCFR\OWZAEKWC|Kind=1|AlternatePart= 
+Variation21=Designator=J16_IN_TAB|UniqueId=\QCNTJCFR\ISWYDMHH|Kind=1|AlternatePart= 
+Variation22=Designator=J15_IN_TAB|UniqueId=\QCNTJCFR\KDOWMEWJ|Kind=1|AlternatePart= 
+Variation23=Designator=J14_IN_TAB|UniqueId=\QCNTJCFR\WIOFSLXF|Kind=1|AlternatePart= 
+Variation24=Designator=J13_IN_TAB|UniqueId=\QCNTJCFR\SRHBSKED|Kind=1|AlternatePart= 
+Variation25=Designator=J12_IN_TAB|UniqueId=\QCNTJCFR\THQKEUTZ|Kind=1|AlternatePart= 
+Variation26=Designator=J11_IN_TAB|UniqueId=\QCNTJCFR\ZKGOCTDG|Kind=1|AlternatePart= 
+Variation27=Designator=J1_OUT_TAB|UniqueId=\EYHFUZXW\VPWPKNYD|Kind=1|AlternatePart= 
+Variation28=Designator=J2_OUT_TAB|UniqueId=\EYHFUZXW\VUUAECDC|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Temporizador_V7\Design Rule Check - TEMP007-1P-2O.html
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - BOM\Bill of Materials-Temporizador_V8(For Assembly).xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.DRR
+DocumentPath=Project Outputs for Temporizador_V7\Design Rule Check - TEMP007-1P-2O.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.EXTREP
+DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GBL
+DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GBO
+DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GBS
+DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GKO
+DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GM1
+DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GM4
+DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GTL
+DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GM4
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GTO
+DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GTS
+DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.LDP
+DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.REP
+DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.RUL
+DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.REP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
+DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
 DocumentPath=Project Outputs for Temporizador_V7\TEMP007-1P-2O.TXT
 DItemRevisionGUID=
 
@@ -1122,6 +1138,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1599,22 +1645,148 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=1
+SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=LIB2022 - ICs.IntLib
-ComponentDesignItemID0=L7824ACV-DG
-ComponentSymbolReference0=L7824ACV-DG
+ComponentLibraryIdentifier0=LIB2022 - Connectors.IntLib
+ComponentDesignItemID0=CON1X2
+ComponentSymbolReference0=CON1X2
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=LIB2022 - ICs.IntLib
-ComponentDesignItemID1=LM317KCS
-ComponentSymbolReference1=LM317KCS
+ComponentLibraryIdentifier1=LIB2022 - Connectors.IntLib
+ComponentDesignItemID1=TAB250
+ComponentSymbolReference1=TAB250
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=LIB2022 - ICs.IntLib
+ComponentDesignItemID2=L7824ACV-DG
+ComponentSymbolReference2=L7824ACV-DG
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=LIB2022 - ICs.IntLib
+ComponentDesignItemID3=LM317KCS
+ComponentSymbolReference3=LM317KCS
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=LIB2022 - ICs.IntLib
+ComponentDesignItemID4=STM32F031F6P7
+ComponentSymbolReference4=STM32F031F6P7
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=LIB2022 - ICs.IntLib
+ComponentDesignItemID5=TLP521-1XSM
+ComponentSymbolReference5=TLP521-1XSM
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=LIB2022 - ICs.IntLib
+ComponentDesignItemID6=ULN2003
+ComponentSymbolReference6=ULN2003
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=LIB2022 - Mechanicals.IntLib
+ComponentDesignItemID7=LOCK-LOCK SEPARATOR
+ComponentSymbolReference7=LOCK-LOCK SEPARATOR
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=LIB2022 - Mechanicals.IntLib
+ComponentDesignItemID8=MH-3.75MM
+ComponentSymbolReference8=MH-3.75MM
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=LIB2022 - Mechanicals.IntLib
+ComponentDesignItemID9=THREAD-LOCK SEPARATOR
+ComponentSymbolReference9=THREAD-LOCK SEPARATOR
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=LIB2022 - Mechanicals.IntLib
+ComponentDesignItemID10=TP-PAD
+ComponentSymbolReference10=TP-PAD
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=LIB2022 - Optoelectronics.IntLib
+ComponentDesignItemID11=LED-BI
+ComponentSymbolReference11=LED-BI
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=LIB2022 - Passives.IntLib
+ComponentDesignItemID12=CAP-SMD
+ComponentSymbolReference12=CAP-SMD
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=LIB2022 - Passives.IntLib
+ComponentDesignItemID13=EEETG1J101UP
+ComponentSymbolReference13=EEETG1J101UP
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=LIB2022 - Passives.IntLib
+ComponentDesignItemID14=RES-SMD
+ComponentSymbolReference14=RES-SMD
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=LIB2022 - Passives.IntLib
+ComponentDesignItemID15=RES-THT
+ComponentSymbolReference15=RES-THT
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=LIB2022 - Relays.IntLib
+ComponentDesignItemID16=RELE SIMPLE M
+ComponentSymbolReference16=RELE SIMPLE M
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=LIB2022 - Relays.IntLib
+ComponentDesignItemID17=RELE SIMPLE
+ComponentSymbolReference17=RELE SIMPLE
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=LIB2022 - Semiconductors.IntLib
+ComponentDesignItemID18=1N4007
+ComponentSymbolReference18=1N4007
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=LIB2022 - Semiconductors.IntLib
+ComponentDesignItemID19=1N4148
+ComponentSymbolReference19=1N4148
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=LIB2022 - Semiconductors.IntLib
+ComponentDesignItemID20=DB107S
+ComponentSymbolReference20=DB107S
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=LIB2022 - Semiconductors.IntLib
+ComponentDesignItemID21=DIODE ZENER
+ComponentSymbolReference21=DIODE ZENER
+ComponentUpdate21=1
+ComponentIsDeviceSheet21=0
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=LIB2022 - Semiconductors.IntLib
+ComponentDesignItemID22=MMSZ18T1G
+ComponentSymbolReference22=MMSZ18T1G
+ComponentUpdate22=1
+ComponentIsDeviceSheet22=0
 FullReplace=0
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1634,16 +1806,123 @@ ParameterName1=Component Kind
 ParameterUpdate1=1
 ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Library Reference
+ParameterName3=JLCPart
 ParameterUpdate3=1
+ParameterName4=Library Reference
+ParameterUpdate4=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=TO-220 - DG
+ModelName0=0201-RES-PANASONIC
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=TO-220 - KCS0003B
+ModelName1=0402-CAP-TDK
 ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=0402-RES-PANASONIC
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=0603-CAP-TDK
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=0603-RES-PANASONIC
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=0805-CAP-TDK
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=0805-RES-PANASONIC
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=1206-CAP-TDK
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=1206-RES-PANASONIC
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=1210-CAP-TDK
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=2010-RES-PANASONIC
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=2512-RES-PANASONIC
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=DBS
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=DIA10X10.2-CAP-SMD
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=DIP16
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=DO-214AC-SMA
+ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=DO40
+ModelUpdate16=1
+ModelType17=PCBLIB
+ModelName17=HJQ-15F-FORM-C
+ModelUpdate17=1
+ModelType18=PCBLIB
+ModelName18=HRJ-3FF-Form-C
+ModelUpdate18=1
+ModelType19=PCBLIB
+ModelName19=LED-5MM - BI
+ModelUpdate19=1
+ModelType20=PCBLIB
+ModelName20=MH-3.75mm-NP
+ModelUpdate20=1
+ModelType21=PCBLIB
+ModelName21=RES1000
+ModelUpdate21=1
+ModelType22=PCBLIB
+ModelName22=RES1000 - NOSILK
+ModelUpdate22=1
+ModelType23=PCBLIB
+ModelName23=RES300
+ModelUpdate23=1
+ModelType24=PCBLIB
+ModelName24=RES400
+ModelUpdate24=1
+ModelType25=PCBLIB
+ModelName25=RES500
+ModelUpdate25=1
+ModelType26=PCBLIB
+ModelName26=RES600
+ModelUpdate26=1
+ModelType27=PCBLIB
+ModelName27=SIP1X2
+ModelUpdate27=1
+ModelType28=PCBLIB
+ModelName28=SMD-4P
+ModelUpdate28=1
+ModelType29=PCBLIB
+ModelName29=SOD-123
+ModelUpdate29=1
+ModelType30=PCBLIB
+ModelName30=ST-TSSOP-20 - STM32F031F6P7
+ModelUpdate30=1
+ModelType31=PCBLIB
+ModelName31=TAB250
+ModelUpdate31=1
+ModelType32=PCBLIB
+ModelName32=TO-220 - DG
+ModelUpdate32=1
+ModelType33=PCBLIB
+ModelName33=TO-220 - DG - RA
+ModelUpdate33=1
+ModelType34=PCBLIB
+ModelName34=TO-220 - KCS0003B
+ModelUpdate34=1
+ModelType35=PCBLIB
+ModelName35=TO-220 - KCS0003B - RA
+ModelUpdate35=1
+ModelType36=PCBLIB
+ModelName36=TPTH - PAD TOP
+ModelUpdate36=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

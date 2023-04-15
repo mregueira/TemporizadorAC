@@ -445,7 +445,7 @@ UniqueID=4A593F08-E88C-48EA-817D-45FE1382A278
 Description=For Assembly
 AllowFabrication=0
 ParameterCount=0
-VariationCount=28
+VariationCount=32
 Variation1=Designator=R10_POW|UniqueId=\GIAEYAMI\YDKGGOTO|Kind=1|AlternatePart= 
 Variation2=Designator=U1_POW|UniqueId=\GIAEYAMI\BZUXGELW|Kind=1|AlternatePart= 
 Variation3=Designator=U2_POW|UniqueId=\GIAEYAMI\DHNCSMAO|Kind=1|AlternatePart= 
@@ -474,6 +474,10 @@ Variation25=Designator=J12_IN_TAB|UniqueId=\QCNTJCFR\THQKEUTZ|Kind=1|AlternatePa
 Variation26=Designator=J11_IN_TAB|UniqueId=\QCNTJCFR\ZKGOCTDG|Kind=1|AlternatePart= 
 Variation27=Designator=J1_OUT_TAB|UniqueId=\EYHFUZXW\VPWPKNYD|Kind=1|AlternatePart= 
 Variation28=Designator=J2_OUT_TAB|UniqueId=\EYHFUZXW\VUUAECDC|Kind=1|AlternatePart= 
+Variation29=Designator=DL1_ACT_INT|UniqueId=\FIEZYFGV\NLHSWGIN|Kind=1|AlternatePart= 
+Variation30=Designator=LL1|UniqueId=\CFKLJHGB|Kind=1|AlternatePart= 
+Variation31=Designator=TL1|UniqueId=\VMIRZGVH|Kind=1|AlternatePart= 
+Variation32=Designator=TL2|UniqueId=\AYXDXJJL|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -1138,36 +1142,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

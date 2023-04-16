@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=JLCPCB-4Layer.OutJob
+Name=JLCPCB-2Layer.OutJob
 Description=
 TargetOutputMedium=Gerber Files
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP LaserJet CP 1025nw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -45,7 +45,7 @@ OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
 OutputDefault1=0
 Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973831~1,16908289~1,16908292~1,16908293~1,16908294~1,16908295~1,16908296~1,16908297~1,16908300~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=C:\Users\Marcelo\Desktop\audioDSP\AudioDSP-v1.0\AudioDSP-1.0\PCB\AudioDSP-1.0.PcbDoc
+Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=JVDXOPPI|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16908289~1,16908292~1,16908293~1,16908294~1,16908295~1,16908296~1,16908297~1,16973837~1|PlotBoardProfile=True|PlotBoardProfileFileName=TEMP008-1P-2O.GM|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName=TEMP008-1P-2O.GD1|UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName=TEMP008-1P-2O.GG1|UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|UserLayerName.Caption0=TEMP008-1P-2O.GBO|UserLayerName.Caption1=TEMP008-1P-2O.GTP|UserLayerName.Caption10=TEMP008-1P-2O.GM7|UserLayerName.Caption11=TEMP008-1P-2O.GM6|UserLayerName.Caption12=TEMP008-1P-2O.GM1|UserLayerName.Caption13=TEMP008-1P-2O.GBL|UserLayerName.Caption14=TEMP008-1P-2O.GM5|UserLayerName.Caption15=TEMP008-1P-2O.GM8|UserLayerName.Caption16=TEMP008-1P-2O.GTL|UserLayerName.Caption17=TEMP008-1P-2O.GBP|UserLayerName.Caption2=TEMP008-1P-2O.GTO|UserLayerName.Caption3=TEMP008-1P-2O.GTS|UserLayerName.Caption4=TEMP008-1P-2O.GM4|UserLayerName.Caption5=TEMP008-1P-2O.GKO|UserLayerName.Caption6=TEMP008-1P-2O.GPT|UserLayerName.Caption7=TEMP008-1P-2O.GPB|UserLayerName.Caption8=TEMP008-1P-2O.GM9|UserLayerName.Caption9=TEMP008-1P-2O.GBS|UserLayerName.Count=18|UserLayerName.Layer0=16973831|UserLayerName.Layer1=16973832|UserLayerName.Layer10=16908295|UserLayerName.Layer11=16908294|UserLayerName.Layer12=16908289|UserLayerName.Layer13=16842751|UserLayerName.Layer14=16908293|UserLayerName.Layer15=16908296|UserLayerName.Layer16=16777217|UserLayerName.Layer17=16973833|UserLayerName.Layer2=16973830|UserLayerName.Layer3=16973834|UserLayerName.Layer4=16908292|UserLayerName.Layer5=16973837|UserLayerName.Layer6=16973848|UserLayerName.Layer7=16973849|UserLayerName.Layer8=16908297|UserLayerName.Layer9=16973835|DocumentPath=C:\Users\Marcelo\Desktop\GitHub Repos\TemporizadorAC\PCB\TEMP008-1P-2O.PcbDoc
 OutputType2=NC Drill
 OutputName2=NC Drill Files
 OutputCategory2=Fabrication
@@ -98,9 +98,9 @@ Configuration4_Name6=VisibleOrder_Flat
 Configuration4_Item6=Comment=120|JLCPart=100|Designator=120|Footprint=120|Quantity=120
 
 [PublishSettings]
-OutputFilePath2=C:\Users\Marcelo\Desktop\audioDSP\AudioDSP-Prototype\AudioDSP-1.0\Project Outputs for AudioDSP-1.0\AudioDSP-1.0\
+OutputFilePath2=C:\Users\Marcelo\Desktop\GitHub Repos\TemporizadorAC\Project Outputs for Temporizador_V8\Temporizador_V8\
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for AudioDSP-1.0
+OutputBasePath2=Project Outputs for Temporizador_V8
 OutputPathMedia2==ProjectName
 OutputPathMediaValue2==ProjectName
 OutputPathOutputer2=
@@ -111,9 +111,9 @@ OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
 OpenOutput2=0
-OutputFilePath3=C:\Users\Marcelo\Desktop\audioDSP\AudioDSP-Prototype\AudioDSP-1.0\Project Outputs for AudioDSP-1.0\AudioDSP-1.0 - Pick and Place\
+OutputFilePath3=C:\Users\Marcelo\Desktop\GitHub Repos\TemporizadorAC\Project Outputs for Temporizador_V8\Temporizador_V8 - Pick and Place\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for AudioDSP-1.0
+OutputBasePath3=Project Outputs for Temporizador_V8
 OutputPathMedia3==ProjectName+' - Pick and Place'
 OutputPathMediaValue3==ProjectName+' - Pick and Place'
 OutputPathOutputer3=
@@ -124,9 +124,9 @@ OutputFileNameMulti3=
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
 OpenOutput3=0
-OutputFilePath4=C:\Users\Marcelo\Desktop\audioDSP\AudioDSP-Prototype\AudioDSP-1.0\Project Outputs for AudioDSP-1.0\
+OutputFilePath4=C:\Users\Marcelo\Desktop\GitHub Repos\TemporizadorAC\Project Outputs for Temporizador_V8\
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for AudioDSP-1.0
+OutputBasePath4=Project Outputs for Temporizador_V8
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Custom]
@@ -139,7 +139,7 @@ OutputFileNameSpecial4=
 OpenOutput4=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\Marcelo\Desktop\audioDSP\AudioDSP-Prototype\AudioDSP-1.0\Project Outputs for AudioDSP-1.0\AudioDSP-1.0\
+RelativeOutputPath2=C:\Users\Marcelo\Desktop\GitHub Repos\TemporizadorAC\Project Outputs for Temporizador_V8\Temporizador_V8\
 OpenOutputs2=0
 AddToProject2=1
 TimestampFolder2=0
@@ -149,7 +149,7 @@ OpenGerberOutput2=0
 OpenNCDrillOutput2=0
 OpenIPCOutput2=0
 EnableReload2=0
-RelativeOutputPath3=C:\Users\Marcelo\Desktop\audioDSP\AudioDSP-Prototype\AudioDSP-1.0\Project Outputs for AudioDSP-1.0\AudioDSP-1.0 - Pick and Place\
+RelativeOutputPath3=C:\Users\Marcelo\Desktop\GitHub Repos\TemporizadorAC\Project Outputs for Temporizador_V8\Temporizador_V8 - Pick and Place\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0
@@ -159,7 +159,7 @@ OpenGerberOutput3=0
 OpenNCDrillOutput3=0
 OpenIPCOutput3=0
 EnableReload3=0
-RelativeOutputPath4=C:\Users\Marcelo\Desktop\audioDSP\AudioDSP-Prototype\AudioDSP-1.0\Project Outputs for AudioDSP-1.0\
+RelativeOutputPath4=C:\Users\Marcelo\Desktop\GitHub Repos\TemporizadorAC\Project Outputs for Temporizador_V8\
 OpenOutputs4=0
 AddToProject4=1
 TimestampFolder4=0

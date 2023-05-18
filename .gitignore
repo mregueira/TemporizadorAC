@@ -1,9 +1,11 @@
 *.html
-Project Logs of *
-Project Outputs of *
+Project Logs for *
+Project Outputs for *
 SCH/History*
 SCH/__Previews*
 PCB/History*
 PCB/__Previews*
+*.txt
+PCB/*.txt
 History*
 __Previews*

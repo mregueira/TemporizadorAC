@@ -58,24 +58,24 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define VALVE_Pin GPIO_PIN_0
-#define VALVE_GPIO_Port GPIOA
-#define LIMIT_Pin GPIO_PIN_1
-#define LIMIT_GPIO_Port GPIOA
+#define VALV_Pin GPIO_PIN_0
+#define VALV_GPIO_Port GPIOA
+#define LIMITE_Pin GPIO_PIN_1
+#define LIMITE_GPIO_Port GPIOA
 #define G_Pin GPIO_PIN_2
 #define G_GPIO_Port GPIOA
 #define W_Pin GPIO_PIN_3
 #define W_GPIO_Port GPIOA
-#define VACUUM_Pin GPIO_PIN_4
-#define VACUUM_GPIO_Port GPIOA
+#define VACIO_Pin GPIO_PIN_4
+#define VACIO_GPIO_Port GPIOA
 #define LED_RED_Pin GPIO_PIN_5
 #define LED_RED_GPIO_Port GPIOA
 #define LED_GREEN_Pin GPIO_PIN_6
 #define LED_GREEN_GPIO_Port GPIOA
 #define FAN_Pin GPIO_PIN_7
 #define FAN_GPIO_Port GPIOA
-#define EXT_Pin GPIO_PIN_9
-#define EXT_GPIO_Port GPIOA
+#define EXTGAS_Pin GPIO_PIN_9
+#define EXTGAS_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

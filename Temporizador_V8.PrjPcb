@@ -483,6 +483,14 @@ Variation34=Designator=M2_ACT_INT|UniqueId=\FIEZYFGV\ZHMRMSJF|Kind=1|AlternatePa
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - BOM - Manual\BOM - Manual-Temporizador_V8(For Assembly).xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - BOM\BOM-Temporizador_V8(For Assembly).xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Temporizador_V8\Design Rule Check - TEMP008-1P-2O.html
 DItemRevisionGUID=
 

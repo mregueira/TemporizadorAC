@@ -445,7 +445,7 @@ UniqueID=4A593F08-E88C-48EA-817D-45FE1382A278
 Description=For Assembly
 AllowFabrication=0
 ParameterCount=0
-VariationCount=34
+VariationCount=35
 Variation1=Designator=R10_POW|UniqueId=\GIAEYAMI\YDKGGOTO|Kind=1|AlternatePart= 
 Variation2=Designator=U1_POW|UniqueId=\GIAEYAMI\BZUXGELW|Kind=1|AlternatePart= 
 Variation3=Designator=U2_POW|UniqueId=\GIAEYAMI\DHNCSMAO|Kind=1|AlternatePart= 
@@ -480,6 +480,7 @@ Variation31=Designator=TL1|UniqueId=\VMIRZGVH|Kind=1|AlternatePart=
 Variation32=Designator=TL2|UniqueId=\AYXDXJJL|Kind=1|AlternatePart= 
 Variation33=Designator=J1_DEBUG|UniqueId=\AAFQINJZ\RTTKHXUB|Kind=1|AlternatePart= 
 Variation34=Designator=M2_ACT_INT|UniqueId=\FIEZYFGV\ZHMRMSJF|Kind=1|AlternatePart= 
+Variation35=Designator=RP2_POW|UniqueId=\GIAEYAMI\GBHAGIHF|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]

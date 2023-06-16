@@ -495,6 +495,90 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for Temporizador_V8\Design Rule Check - TEMP008-1P-2O.html
 DItemRevisionGUID=
 
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - Pick and Place\Pick Place for TEMP008-1P-2O(For Assembly).csv
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM6
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM7
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM8
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM9
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.REP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.TXT
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0

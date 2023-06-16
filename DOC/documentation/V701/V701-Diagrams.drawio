@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-05-20T17:53:49.015Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="RUwsQptMqv35BJ1XeZTy" version="21.2.8" type="device" pages="5">
+<mxfile host="Electron" modified="2023-06-16T00:05:00.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.4.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="jihAfDZ3q9utmC6NJBan" version="21.4.0" type="device" pages="5">
   <diagram name="VersionChispa" id="oEXeLx-d2areYlG53fH5">
-    <mxGraphModel dx="1050" dy="629" grid="1" gridSize="5" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1036" dy="614" grid="1" gridSize="5" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="63taBzUoJy-Sw6YJ-r_4-0" />
         <mxCell id="63taBzUoJy-Sw6YJ-r_4-1" parent="63taBzUoJy-Sw6YJ-r_4-0" />
@@ -23,7 +23,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="63taBzUoJy-Sw6YJ-r_4-6" value="EXT. GASES" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;fillColor=none;strokeColor=none;" parent="63taBzUoJy-Sw6YJ-r_4-1" vertex="1">
-          <mxGeometry x="167.5" y="70" width="95" height="10" as="geometry" />
+          <mxGeometry x="170" y="70" width="95" height="10" as="geometry" />
         </mxCell>
         <mxCell id="63taBzUoJy-Sw6YJ-r_4-7" value="VENTILADOR" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;fillColor=none;strokeColor=none;" parent="63taBzUoJy-Sw6YJ-r_4-1" vertex="1">
           <mxGeometry x="50" y="70" width="120" height="10" as="geometry" />

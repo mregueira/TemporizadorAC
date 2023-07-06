@@ -21,7 +21,7 @@ TargetOutputMedium=BOM - Manual
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=HP LaserJet CP 1025nw
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -124,9 +124,9 @@ Configuration5_Item3=[Fitted] = 'Not Fitted'
 Configuration5_Name4=General
 Configuration5_Item4=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration5_Name5=GroupOrder
-Configuration5_Item5=Comment=True|Footprint=True|JLCPart=True
+Configuration5_Item5=
 Configuration5_Name6=SortOrder
-Configuration5_Item6=Fitted=Up
+Configuration5_Item6=Fitted=Down
 Configuration5_Name7=VisibleOrder
 Configuration5_Item7=Comment=120|Footprint=120|Quantity=120|Fitted=100
 Configuration5_Name8=VisibleOrder_Flat
@@ -172,7 +172,7 @@ OutputFileNameMulti4==ProjectName+' - BOM - ' =VariantName
 UseOutputNameForMulti4=1
 OutputFileNameSpecial4=
 OpenOutput4=0
-OutputFilePath5=C:\Users\Marcelo\Desktop\GitHub Repos\TemporizadorAC\Project Outputs for Temporizador_V8\
+OutputFilePath5=C:\Users\Marcelo\Desktop\Temporizador\TemporizadorAC\Project Outputs for Temporizador_V8\
 ReleaseManaged5=1
 OutputBasePath5=Project Outputs for Temporizador_V8
 OutputPathMedia5=
@@ -217,7 +217,7 @@ OpenGerberOutput4=0
 OpenNCDrillOutput4=0
 OpenIPCOutput4=0
 EnableReload4=0
-RelativeOutputPath5=C:\Users\Marcelo\Desktop\GitHub Repos\TemporizadorAC\Project Outputs for Temporizador_V8\
+RelativeOutputPath5=C:\Users\Marcelo\Desktop\Temporizador\TemporizadorAC\Project Outputs for Temporizador_V8\
 OpenOutputs5=1
 AddToProject5=1
 TimestampFolder5=0

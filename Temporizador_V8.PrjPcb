@@ -445,7 +445,7 @@ UniqueID=4A593F08-E88C-48EA-817D-45FE1382A278
 Description=For Assembly
 AllowFabrication=0
 ParameterCount=0
-VariationCount=32
+VariationCount=36
 Variation1=Designator=R10_POW|UniqueId=\GIAEYAMI\YDKGGOTO|Kind=1|AlternatePart= 
 Variation2=Designator=U1_POW|UniqueId=\GIAEYAMI\BZUXGELW|Kind=1|AlternatePart= 
 Variation3=Designator=U2_POW|UniqueId=\GIAEYAMI\DHNCSMAO|Kind=1|AlternatePart= 
@@ -478,10 +478,106 @@ Variation29=Designator=DL1_ACT_INT|UniqueId=\FIEZYFGV\NLHSWGIN|Kind=1|AlternateP
 Variation30=Designator=LL1|UniqueId=\CFKLJHGB|Kind=1|AlternatePart= 
 Variation31=Designator=TL1|UniqueId=\VMIRZGVH|Kind=1|AlternatePart= 
 Variation32=Designator=TL2|UniqueId=\AYXDXJJL|Kind=1|AlternatePart= 
+Variation33=Designator=J1_DEBUG|UniqueId=\AAFQINJZ\RTTKHXUB|Kind=1|AlternatePart= 
+Variation34=Designator=M2_ACT_INT|UniqueId=\FIEZYFGV\ZHMRMSJF|Kind=1|AlternatePart= 
+Variation35=Designator=RP2_POW|UniqueId=\GIAEYAMI\GBHAGIHF|Kind=1|AlternatePart= 
+Variation36=Designator=DZ1_POW|UniqueId=\GIAEYAMI\KPXKBCSG|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - BOM - Manual\BOM - Manual-Temporizador_V8(For Assembly).xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - BOM\BOM-Temporizador_V8(For Assembly).xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Temporizador_V8\Design Rule Check - TEMP008-1P-2O.html
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - Pick and Place\Pick Place for TEMP008-1P-2O(For Assembly).csv
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM6
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM7
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM8
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM9
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.REP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -609,14 +705,38 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Virtual Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=600|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\Marcelo\Desktop\Temporizador\TemporizadorAC\PCB\TEMP008-1P-2O.PcbDoc
+Configuration1_Name2=OutputConfigurationParameter2
+Configuration1_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\Marcelo\Desktop\Temporizador\TemporizadorAC\PCB\TEMP008-1P-2O.PcbDoc
+Configuration1_Name3=OutputConfigurationParameter3
+Configuration1_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Marcelo\Desktop\Temporizador\TemporizadorAC\PCB\TEMP008-1P-2O.PcbDoc
+Configuration1_Name4=OutputConfigurationParameter4
+Configuration1_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Marcelo\Desktop\Temporizador\TemporizadorAC\PCB\TEMP008-1P-2O.PcbDoc
+Configuration1_Name5=OutputConfigurationParameter5
+Configuration1_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Marcelo\Desktop\Temporizador\TemporizadorAC\PCB\TEMP008-1P-2O.PcbDoc
+Configuration1_Name6=OutputConfigurationParameter6
+Configuration1_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Marcelo\Desktop\Temporizador\TemporizadorAC\PCB\TEMP008-1P-2O.PcbDoc
+Configuration1_Name7=OutputConfigurationParameter7
+Configuration1_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=KeepOutLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Marcelo\Desktop\Temporizador\TemporizadorAC\PCB\TEMP008-1P-2O.PcbDoc
+Configuration1_Name8=OutputConfigurationParameter8
+Configuration1_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Marcelo\Desktop\Temporizador\TemporizadorAC\PCB\TEMP008-1P-2O.PcbDoc
+Configuration1_Name9=OutputConfigurationParameter9
+Configuration1_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Marcelo\Desktop\Temporizador\TemporizadorAC\PCB\TEMP008-1P-2O.PcbDoc
+Configuration1_Name10=OutputConfigurationParameter10
+Configuration1_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Marcelo\Desktop\Temporizador\TemporizadorAC\PCB\TEMP008-1P-2O.PcbDoc
+Configuration1_Name11=OutputConfigurationParameter11
+Configuration1_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical8|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Marcelo\Desktop\Temporizador\TemporizadorAC\PCB\TEMP008-1P-2O.PcbDoc
+Configuration1_Name12=OutputConfigurationParameter12
+Configuration1_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical12|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Marcelo\Desktop\Temporizador\TemporizadorAC\PCB\TEMP008-1P-2O.PcbDoc
 OutputType2=PCB 3D Print
 OutputName2=PCB 3D Print
 OutputDocumentPath2=
@@ -689,6 +809,12 @@ OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=PCBDrawing
+OutputName14=Draftsman
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1412,22 +1538,22 @@ Type127=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
-L2=NNWNNNNWWWNWNWNWN
-L3=NWEENEEEENEWNEEWN
-L4=NNENNNWEENNWNENWN
-L5=NNNNNNNNNNNNNNNNN
-L6=NNENNNNEENNWNENWN
-L7=NNEWNNWEENNWNENWN
-L8=NWEENEENEEENNEENN
+L2=NNWNNNNWWWNWNWNWW
+L3=NWEENEEEENEWNEEWW
+L4=NNENNNWEENNWNENWW
+L5=NNNNNNNNNNNNNNNNW
+L6=NNENNNNEENNWNENWW
+L7=NNEWNNWEENNWNENWW
+L8=NWEENEENEEENNEENW
 L9=NWEENEEEENEWNEEWW
-L10=NWNNNNNENNEWNNEWN
-L11=NNENNNNEEENWNENWN
-L12=WWWWNWWNWWWNWWWNN
+L10=NWNNNNNENNEWNNEWW
+L11=NNENNNNEEENWNENWW
+L12=WWWWNWWNWWWNWWWNW
 L13=NNNNNNNNNNNWNNNWW
 L14=NWEENEEEENEWNEEWW
 L15=NNENNNNEEENWNENWW
 L16=WWWWNWWNWWWNWWWNW
-L17=WNNNNNNNWNNNWWWWN
+L17=WWWWWWWWWWWWWWWWW
 
 [Annotate]
 SortOrder=3
@@ -1440,27 +1566,27 @@ MatchStrictly2=1
 PhysicalNamingFormat=$ComponentPrefix$ComponentIndex_$SheetDesignator
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
-UniqueIDPath0=\ZLBBMNHP\OGWRKAFK
-DocumentName0=InputISO_Block.SchDoc
+UniqueIDPath0=\AAFQINJZ
+DocumentName0=Debug_Port.SchDoc
 IsEnabled0=1
 SelectionScope0=All
-Order0=5
+Order0=13
 IndexEnabled0=0
 IndexStartValue0=1
 Suffix0=
-UniqueIDPath1=\FIEZYFGV
-DocumentName1=Actuators_Interface.SchDoc
+UniqueIDPath1=\ZLBBMNHP
+DocumentName1=Sensors_Interface.SchDoc
 IsEnabled1=1
 SelectionScope1=All
-Order1=1
+Order1=10
 IndexEnabled1=0
 IndexStartValue1=1
 Suffix1=
-UniqueIDPath2=\QCNTJCFR
-DocumentName2=Input_TAB.SchDoc
+UniqueIDPath2=\EYHFUZXW
+DocumentName2=Output_TAB.SchDoc
 IsEnabled2=1
 SelectionScope2=All
-Order2=2
+Order2=8
 IndexEnabled2=0
 IndexStartValue2=1
 Suffix2=
@@ -1472,51 +1598,51 @@ Order3=12
 IndexEnabled3=0
 IndexStartValue3=1
 Suffix3=
-UniqueIDPath4=\GIAEYAMI
-DocumentName4=Power_Block.SchDoc
+UniqueIDPath4=\ZLBBMNHP\PIBKJJFW
+DocumentName4=InputISO_Block.SchDoc
 IsEnabled4=1
 SelectionScope4=All
-Order4=9
+Order4=6
 IndexEnabled4=0
 IndexStartValue4=1
 Suffix4=
-UniqueIDPath5=\ZLBBMNHP\YEQDRYOC
-DocumentName5=InputISO_Block.SchDoc
+UniqueIDPath5=\QCNTJCFR
+DocumentName5=Input_TAB.SchDoc
 IsEnabled5=1
 SelectionScope5=All
-Order5=4
+Order5=2
 IndexEnabled5=0
 IndexStartValue5=1
 Suffix5=
-UniqueIDPath6=\ZLBBMNHP
-DocumentName6=Sensors_Interface.SchDoc
+UniqueIDPath6=\FIEZYFGV
+DocumentName6=Actuators_Interface.SchDoc
 IsEnabled6=1
 SelectionScope6=All
-Order6=10
+Order6=1
 IndexEnabled6=0
 IndexStartValue6=1
 Suffix6=
-UniqueIDPath7=\AAFQINJZ
-DocumentName7=Debug_Port.SchDoc
+UniqueIDPath7=\ZLBBMNHP\GFVGHPOK
+DocumentName7=InputISO_Block.SchDoc
 IsEnabled7=1
 SelectionScope7=All
-Order7=13
+Order7=7
 IndexEnabled7=0
 IndexStartValue7=1
 Suffix7=
-UniqueIDPath8=\ZLBBMNHP\PIBKJJFW
-DocumentName8=InputISO_Block.SchDoc
+UniqueIDPath8=\GIAEYAMI
+DocumentName8=Power_Block.SchDoc
 IsEnabled8=1
 SelectionScope8=All
-Order8=6
+Order8=9
 IndexEnabled8=0
 IndexStartValue8=1
 Suffix8=
-UniqueIDPath9=\EYHFUZXW
-DocumentName9=Output_TAB.SchDoc
+UniqueIDPath9=
+DocumentName9=Temporizador_V8_top.SchDoc
 IsEnabled9=1
-SelectionScope9=All
-Order9=8
+SelectionScope9=Only Selected Parts
+Order9=14
 IndexEnabled9=0
 IndexStartValue9=1
 Suffix9=
@@ -1528,19 +1654,19 @@ Order10=3
 IndexEnabled10=0
 IndexStartValue10=1
 Suffix10=
-UniqueIDPath11=
-DocumentName11=Temporizador_V8_top.SchDoc
+UniqueIDPath11=\ZLBBMNHP\YEQDRYOC
+DocumentName11=InputISO_Block.SchDoc
 IsEnabled11=1
-SelectionScope11=Only Selected Parts
-Order11=14
+SelectionScope11=All
+Order11=4
 IndexEnabled11=0
 IndexStartValue11=1
 Suffix11=
-UniqueIDPath12=\ZLBBMNHP\GFVGHPOK
+UniqueIDPath12=\ZLBBMNHP\OGWRKAFK
 DocumentName12=InputISO_Block.SchDoc
 IsEnabled12=1
 SelectionScope12=All
-Order12=7
+Order12=5
 IndexEnabled12=0
 IndexStartValue12=1
 Suffix12=
@@ -1591,8 +1717,8 @@ ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
 ComponentLibraryIdentifier5=LIB2022 - ICs.IntLib
-ComponentDesignItemID5=TLP521-1XSM
-ComponentSymbolReference5=TLP521-1XSM
+ComponentDesignItemID5=TLP521-1
+ComponentSymbolReference5=TLP521-1
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
@@ -1633,68 +1759,68 @@ ComponentUpdate11=1
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
 ComponentLibraryIdentifier12=LIB2022 - Passives.IntLib
-ComponentDesignItemID12=CAP-SMD
-ComponentSymbolReference12=CAP-SMD
+ComponentDesignItemID12=CAPPOL-THT
+ComponentSymbolReference12=CAPPOL-THT
 ComponentUpdate12=1
 ComponentIsDeviceSheet12=0
 ComponentLibIdentifierKind13=Library Name And Type
 ComponentLibraryIdentifier13=LIB2022 - Passives.IntLib
-ComponentDesignItemID13=EEETG1J101UP
-ComponentSymbolReference13=EEETG1J101UP
+ComponentDesignItemID13=CAP-SMD
+ComponentSymbolReference13=CAP-SMD
 ComponentUpdate13=1
 ComponentIsDeviceSheet13=0
 ComponentLibIdentifierKind14=Library Name And Type
 ComponentLibraryIdentifier14=LIB2022 - Passives.IntLib
-ComponentDesignItemID14=RES-SMD
-ComponentSymbolReference14=RES-SMD
+ComponentDesignItemID14=CAP-THT
+ComponentSymbolReference14=CAP-THT
 ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
 ComponentLibraryIdentifier15=LIB2022 - Passives.IntLib
-ComponentDesignItemID15=RES-THT
-ComponentSymbolReference15=RES-THT
+ComponentDesignItemID15=RES-SMD
+ComponentSymbolReference15=RES-SMD
 ComponentUpdate15=1
 ComponentIsDeviceSheet15=0
 ComponentLibIdentifierKind16=Library Name And Type
-ComponentLibraryIdentifier16=LIB2022 - Relays.IntLib
-ComponentDesignItemID16=RELE SIMPLE M
-ComponentSymbolReference16=RELE SIMPLE M
+ComponentLibraryIdentifier16=LIB2022 - Passives.IntLib
+ComponentDesignItemID16=RES-THT
+ComponentSymbolReference16=RES-THT
 ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 ComponentLibIdentifierKind17=Library Name And Type
 ComponentLibraryIdentifier17=LIB2022 - Relays.IntLib
-ComponentDesignItemID17=RELE SIMPLE
-ComponentSymbolReference17=RELE SIMPLE
+ComponentDesignItemID17=RELE SIMPLE M
+ComponentSymbolReference17=RELE SIMPLE M
 ComponentUpdate17=1
 ComponentIsDeviceSheet17=0
 ComponentLibIdentifierKind18=Library Name And Type
-ComponentLibraryIdentifier18=LIB2022 - Semiconductors.IntLib
-ComponentDesignItemID18=1N4007
-ComponentSymbolReference18=1N4007
+ComponentLibraryIdentifier18=LIB2022 - Relays.IntLib
+ComponentDesignItemID18=RELE SIMPLE
+ComponentSymbolReference18=RELE SIMPLE
 ComponentUpdate18=1
 ComponentIsDeviceSheet18=0
 ComponentLibIdentifierKind19=Library Name And Type
 ComponentLibraryIdentifier19=LIB2022 - Semiconductors.IntLib
-ComponentDesignItemID19=1N4148
-ComponentSymbolReference19=1N4148
+ComponentDesignItemID19=DB107S
+ComponentSymbolReference19=DB107S
 ComponentUpdate19=1
 ComponentIsDeviceSheet19=0
 ComponentLibIdentifierKind20=Library Name And Type
 ComponentLibraryIdentifier20=LIB2022 - Semiconductors.IntLib
-ComponentDesignItemID20=DB107S
-ComponentSymbolReference20=DB107S
+ComponentDesignItemID20=DIODE RECTIFIER
+ComponentSymbolReference20=DIODE RECTIFIER
 ComponentUpdate20=1
 ComponentIsDeviceSheet20=0
 ComponentLibIdentifierKind21=Library Name And Type
 ComponentLibraryIdentifier21=LIB2022 - Semiconductors.IntLib
-ComponentDesignItemID21=DIODE ZENER
-ComponentSymbolReference21=DIODE ZENER
+ComponentDesignItemID21=DIODE SCHOTTKY
+ComponentSymbolReference21=DIODE SCHOTTKY
 ComponentUpdate21=1
 ComponentIsDeviceSheet21=0
 ComponentLibIdentifierKind22=Library Name And Type
 ComponentLibraryIdentifier22=LIB2022 - Semiconductors.IntLib
-ComponentDesignItemID22=MMSZ18T1G
-ComponentSymbolReference22=MMSZ18T1G
+ComponentDesignItemID22=DIODE ZENER
+ComponentSymbolReference22=DIODE ZENER
 ComponentUpdate22=1
 ComponentIsDeviceSheet22=0
 FullReplace=0
@@ -1710,16 +1836,18 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
+ParameterName0=ClassName
 ParameterUpdate0=1
-ParameterName1=Component Kind
+ParameterName1=Comment
 ParameterUpdate1=1
-ParameterName2=Description
+ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=JLCPart
+ParameterName3=Description
 ParameterUpdate3=1
-ParameterName4=Library Reference
+ParameterName4=JLCPart
 ParameterUpdate4=1
+ParameterName5=Library Reference
+ParameterUpdate5=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
@@ -1759,80 +1887,104 @@ ModelType11=PCBLIB
 ModelName11=2512-RES-PANASONIC
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=DBS
+ModelName12=CAP100
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=DIA10X10.2-CAP-SMD
+ModelName13=CAP100RP
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=DIP16
+ModelName14=CAP200
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=DO-214AC-SMA
+ModelName15=CAP200RP
 ModelUpdate15=1
 ModelType16=PCBLIB
-ModelName16=DO40
+ModelName16=CAP300
 ModelUpdate16=1
 ModelType17=PCBLIB
-ModelName17=HJQ-15F-FORM-C
+ModelName17=CAP300RP
 ModelUpdate17=1
 ModelType18=PCBLIB
-ModelName18=HRJ-3FF-Form-C
+ModelName18=DBS
 ModelUpdate18=1
 ModelType19=PCBLIB
-ModelName19=LED-5MM - BI
+ModelName19=DIP16
 ModelUpdate19=1
 ModelType20=PCBLIB
-ModelName20=MH-3.75mm-NP
+ModelName20=DIP4
 ModelUpdate20=1
 ModelType21=PCBLIB
-ModelName21=RES1000
+ModelName21=DO201-AD
 ModelUpdate21=1
 ModelType22=PCBLIB
-ModelName22=RES1000 - NOSILK
+ModelName22=DO-214AB-SMC
 ModelUpdate22=1
 ModelType23=PCBLIB
-ModelName23=RES300
+ModelName23=DO-214AC-SMA
 ModelUpdate23=1
 ModelType24=PCBLIB
-ModelName24=RES400
+ModelName24=DO40
 ModelUpdate24=1
 ModelType25=PCBLIB
-ModelName25=RES500
+ModelName25=DO41
 ModelUpdate25=1
 ModelType26=PCBLIB
-ModelName26=RES600
+ModelName26=HJQ-15F-FORM-C
 ModelUpdate26=1
 ModelType27=PCBLIB
-ModelName27=SIP1X2
+ModelName27=HRJ-3FF-Form-C
 ModelUpdate27=1
 ModelType28=PCBLIB
-ModelName28=SMD-4P
+ModelName28=LED-5MM - BI
 ModelUpdate28=1
 ModelType29=PCBLIB
-ModelName29=SOD-123
+ModelName29=MH-3.75mm-NP
 ModelUpdate29=1
 ModelType30=PCBLIB
-ModelName30=ST-TSSOP-20 - STM32F031F6P7
+ModelName30=RES1000
 ModelUpdate30=1
 ModelType31=PCBLIB
-ModelName31=TAB250
+ModelName31=RES1000 - NOSILK
 ModelUpdate31=1
 ModelType32=PCBLIB
-ModelName32=TO-220 - DG
+ModelName32=RES300
 ModelUpdate32=1
 ModelType33=PCBLIB
-ModelName33=TO-220 - DG - RA
+ModelName33=RES400
 ModelUpdate33=1
 ModelType34=PCBLIB
-ModelName34=TO-220 - KCS0003B
+ModelName34=RES500
 ModelUpdate34=1
 ModelType35=PCBLIB
-ModelName35=TO-220 - KCS0003B - RA
+ModelName35=RES600
 ModelUpdate35=1
 ModelType36=PCBLIB
-ModelName36=TPTH - PAD TOP
+ModelName36=SIP1X2
 ModelUpdate36=1
+ModelType37=PCBLIB
+ModelName37=SOD-123
+ModelUpdate37=1
+ModelType38=PCBLIB
+ModelName38=ST-TSSOP-20 - STM32F031F6P7
+ModelUpdate38=1
+ModelType39=PCBLIB
+ModelName39=TAB250
+ModelUpdate39=1
+ModelType40=PCBLIB
+ModelName40=TO-220 - DG
+ModelUpdate40=1
+ModelType41=PCBLIB
+ModelName41=TO-220 - DG - RA
+ModelUpdate41=1
+ModelType42=PCBLIB
+ModelName42=TO-220 - KCS0003B
+ModelUpdate42=1
+ModelType43=PCBLIB
+ModelName43=TO-220 - KCS0003B - RA
+ModelUpdate43=1
+ModelType44=PCBLIB
+ModelName44=TPTH - PAD TOP
+ModelUpdate44=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

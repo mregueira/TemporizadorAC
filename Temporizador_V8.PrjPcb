@@ -445,7 +445,7 @@ UniqueID=4A593F08-E88C-48EA-817D-45FE1382A278
 Description=For Assembly
 AllowFabrication=0
 ParameterCount=0
-VariationCount=36
+VariationCount=46
 Variation1=Designator=R10_POW|UniqueId=\GIAEYAMI\YDKGGOTO|Kind=1|AlternatePart= 
 Variation2=Designator=U1_POW|UniqueId=\GIAEYAMI\BZUXGELW|Kind=1|AlternatePart= 
 Variation3=Designator=U2_POW|UniqueId=\GIAEYAMI\DHNCSMAO|Kind=1|AlternatePart= 
@@ -481,103 +481,29 @@ Variation32=Designator=TL2|UniqueId=\AYXDXJJL|Kind=1|AlternatePart=
 Variation33=Designator=J1_DEBUG|UniqueId=\AAFQINJZ\RTTKHXUB|Kind=1|AlternatePart= 
 Variation34=Designator=M2_ACT_INT|UniqueId=\FIEZYFGV\ZHMRMSJF|Kind=1|AlternatePart= 
 Variation35=Designator=RP2_POW|UniqueId=\GIAEYAMI\GBHAGIHF|Kind=1|AlternatePart= 
-Variation36=Designator=DZ1_POW|UniqueId=\GIAEYAMI\KPXKBCSG|Kind=1|AlternatePart= 
+Variation36=Designator=DZ1_POW|UniqueId=\GIAEYAMI\KPXKBCSG|Kind=0|AlternatePart= 
+Variation37=Designator=RP1_POW|UniqueId=\GIAEYAMI\QNEOGPHI|Kind=1|AlternatePart= 
+Variation38=Designator=CADJ_POW|UniqueId=\GIAEYAMI\PNRUBHGZ|Kind=1|AlternatePart= 
+Variation39=Designator=C5_POW|UniqueId=\GIAEYAMI\DTDWGLER|Kind=1|AlternatePart= 
+Variation40=Designator=C1_FAN|UniqueId=\ZLBBMNHP\JXOVICMI\WUUWDUKJ|Kind=1|AlternatePart= 
+Variation41=Designator=C1_HEAT|UniqueId=\ZLBBMNHP\YEQDRYOC\WUUWDUKJ|Kind=1|AlternatePart= 
+Variation42=Designator=C1_LIMIT|UniqueId=\ZLBBMNHP\OGWRKAFK\WUUWDUKJ|Kind=1|AlternatePart= 
+Variation43=Designator=C1_VACUUM|UniqueId=\ZLBBMNHP\PIBKJJFW\WUUWDUKJ|Kind=1|AlternatePart= 
+Variation44=Designator=C1_VALVE|UniqueId=\ZLBBMNHP\GFVGHPOK\WUUWDUKJ|Kind=1|AlternatePart= 
+Variation45=Designator=C2_ACT_INT|UniqueId=\FIEZYFGV\KLXWMTZE|Kind=1|AlternatePart= 
+Variation46=Designator=C3_POW|UniqueId=\GIAEYAMI\OFDNUBPS|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - BOM - Manual\BOM - Manual-Temporizador_V8(For Assembly).xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - BOM\BOM-Temporizador_V8(For Assembly).xlsx
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for Temporizador_V8\Design Rule Check - TEMP008-1P-2O.html
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - Pick and Place\Pick Place for TEMP008-1P-2O(For Assembly).csv
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM4
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM5
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM6
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM7
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM8
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GM9
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.REP
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8\TEMP008-1P-2O.TXT
 DItemRevisionGUID=
 
 [Configuration1]

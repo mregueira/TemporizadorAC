@@ -121,12 +121,28 @@ FLASH_OBProgramInitTypeDef OptionsBytesInit = {0};
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+
+  /* USER CODE END 1 */
+
+  /* MCU Configuration--------------------------------------------------------*/
+
+  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+  HAL_Init();
+
+  /* USER CODE BEGIN Init */
+
+  /* USER CODE END Init */
+
+  /* Configure the system clock */
+  SystemClock_Config();
+
+  /* USER CODE BEGIN SysInit */
   // RDP Level 1 Setting Start //
-  HAL_RCC_DeInit();
-  SysTick->CTRL = 0;
-  SysTick->LOAD = 0;
-  SysTick->VAL = 0;
-  __disable_irq();
+//  HAL_RCC_DeInit();
+//  SysTick->CTRL = 0;
+//  SysTick->LOAD = 0;
+//  SysTick->VAL = 0;
+//  __disable_irq();
   __HAL_FLASH_PREFETCH_BUFFER_DISABLE();
   /* Unlock Flash Control register and Option Bytes */
   HAL_FLASH_Unlock();
@@ -145,22 +161,6 @@ int main(void)
 	  HAL_FLASH_OB_Launch();
   }
   // RDP Level 1 Setting End //
-  /* USER CODE END 1 */
-
-  /* MCU Configuration--------------------------------------------------------*/
-
-  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
-
-  /* USER CODE BEGIN Init */
-
-  /* USER CODE END Init */
-
-  /* Configure the system clock */
-  SystemClock_Config();
-
-  /* USER CODE BEGIN SysInit */
-
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */

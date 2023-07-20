@@ -111,7 +111,7 @@ void cool_process(void);	 // COOL sequence
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+FLASH_OBProgramInitTypeDef OptionsBytesInit = {0};
 /* USER CODE END 0 */
 
 /**
@@ -121,7 +121,30 @@ void cool_process(void);	 // COOL sequence
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+  // RDP Level 1 Setting Start //
+  HAL_RCC_DeInit();
+  SysTick->CTRL = 0;
+  SysTick->LOAD = 0;
+  SysTick->VAL = 0;
+  __disable_irq();
+  __HAL_FLASH_PREFETCH_BUFFER_DISABLE();
+  /* Unlock Flash Control register and Option Bytes */
+  HAL_FLASH_Unlock();
+  HAL_FLASH_OB_Unlock();
+  HAL_FLASHEx_OBGetConfig(&OptionsBytesInit);
 
+
+  if(OptionsBytesInit.RDPLevel!=OB_RDP_LEVEL_1)
+  {
+	  /* First step: Choose option byte type.*/
+	  OptionsBytesInit.OptionType =OPTIONBYTE_RDP;
+	  OptionsBytesInit.RDPLevel = OB_RDP_LEVEL_1;
+	  /* Program Option Bytes */
+	  HAL_FLASHEx_OBProgram(&OptionsBytesInit);
+	  /* Launch Option Bytes Loading */
+	  HAL_FLASH_OB_Launch();
+  }
+  // RDP Level 1 Setting End //
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -145,6 +168,7 @@ int main(void)
   MX_TIM16_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start_IT(&htim16);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */

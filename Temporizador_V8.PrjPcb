@@ -495,14 +495,18 @@ Variation46=Designator=C3_POW|UniqueId=\GIAEYAMI\OFDNUBPS|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - BOM\BOM-Temporizador_V8(For Assembly).xlsx
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - BOM - Manual\BOM - Manual-Temporizador_V8(For Assembly).xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Temporizador_V8\Design Rule Check - TEMP008-1P-2O.html
+DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - BOM\BOM-Temporizador_V8(For Assembly).xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
+DocumentPath=Project Outputs for Temporizador_V8\Design Rule Check - TEMP008-1P-2O.html
+DItemRevisionGUID=
+
+[GeneratedDocument4]
 DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - Pick and Place\Pick Place for TEMP008-1P-2O(For Assembly).csv
 DItemRevisionGUID=
 

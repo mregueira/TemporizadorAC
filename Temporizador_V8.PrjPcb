@@ -492,23 +492,11 @@ Variation43=Designator=C1_VACUUM|UniqueId=\ZLBBMNHP\PIBKJJFW\WUUWDUKJ|Kind=1|Alt
 Variation44=Designator=C1_VALVE|UniqueId=\ZLBBMNHP\GFVGHPOK\WUUWDUKJ|Kind=1|AlternatePart= 
 Variation45=Designator=C2_ACT_INT|UniqueId=\FIEZYFGV\KLXWMTZE|Kind=1|AlternatePart= 
 Variation46=Designator=C3_POW|UniqueId=\GIAEYAMI\OFDNUBPS|Kind=1|AlternatePart= 
-Variation47=Designator=F1|UniqueId=\QCNTJCFR\PFSEQMVG|Kind=1|AlternatePart= 
+Variation47=Designator=F1|UniqueId=\QCNTJCFR\PFSEQMVG|Kind=0|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - BOM - Manual\BOM - Manual-Temporizador_V8(For Assembly).xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - BOM\BOM-Temporizador_V8(For Assembly).xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Temporizador_V8\Design Rule Check - TEMP008-1P-2O.html
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - Pick and Place\Pick Place for TEMP008-1P-2O(For Assembly).csv
 DItemRevisionGUID=
 
 [Configuration1]

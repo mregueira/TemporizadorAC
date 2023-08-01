@@ -492,11 +492,15 @@ Variation43=Designator=C1_VACUUM|UniqueId=\ZLBBMNHP\PIBKJJFW\WUUWDUKJ|Kind=1|Alt
 Variation44=Designator=C1_VALVE|UniqueId=\ZLBBMNHP\GFVGHPOK\WUUWDUKJ|Kind=1|AlternatePart= 
 Variation45=Designator=C2_ACT_INT|UniqueId=\FIEZYFGV\KLXWMTZE|Kind=1|AlternatePart= 
 Variation46=Designator=C3_POW|UniqueId=\GIAEYAMI\OFDNUBPS|Kind=1|AlternatePart= 
-Variation47=Designator=F1|UniqueId=\QCNTJCFR\PFSEQMVG|Kind=0|AlternatePart= 
+Variation47=Designator=F1|UniqueId=\QCNTJCFR\PFSEQMVG|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Temporizador_V8\Temporizador_V8 - BOM - Manual\BOM - Manual-Temporizador_V8(For Assembly).xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Temporizador_V8\Design Rule Check - TEMP008-1P-2O.html
 DItemRevisionGUID=
 
 [Configuration1]
@@ -614,12 +618,22 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=HP LaserJet CP 1025nw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1491,83 +1505,83 @@ MatchStrictly2=1
 PhysicalNamingFormat=$ComponentPrefix$ComponentIndex_$SheetDesignator
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
-UniqueIDPath0=\ZLBBMNHP\YEQDRYOC
-DocumentName0=InputISO_Block.SchDoc
+UniqueIDPath0=\EYHFUZXW
+DocumentName0=Output_TAB.SchDoc
 IsEnabled0=1
 SelectionScope0=All
-Order0=4
+Order0=8
 IndexEnabled0=0
 IndexStartValue0=1
 Suffix0=
-UniqueIDPath1=\ZLBBMNHP\OGWRKAFK
+UniqueIDPath1=\ZLBBMNHP\GFVGHPOK
 DocumentName1=InputISO_Block.SchDoc
 IsEnabled1=1
 SelectionScope1=All
-Order1=5
+Order1=7
 IndexEnabled1=0
 IndexStartValue1=1
 Suffix1=
-UniqueIDPath2=\BHBDEAUD
-DocumentName2=uC_Interface.SchDoc
+UniqueIDPath2=\ZLBBMNHP\PIBKJJFW
+DocumentName2=InputISO_Block.SchDoc
 IsEnabled2=1
 SelectionScope2=All
-Order2=12
+Order2=6
 IndexEnabled2=0
 IndexStartValue2=1
 Suffix2=
-UniqueIDPath3=\ZLBBMNHP\GFVGHPOK
-DocumentName3=InputISO_Block.SchDoc
+UniqueIDPath3=\FIEZYFGV
+DocumentName3=Actuators_Interface.SchDoc
 IsEnabled3=1
 SelectionScope3=All
-Order3=7
+Order3=1
 IndexEnabled3=0
 IndexStartValue3=1
 Suffix3=
-UniqueIDPath4=\FIEZYFGV
-DocumentName4=Actuators_Interface.SchDoc
+UniqueIDPath4=\ZLBBMNHP
+DocumentName4=Sensors_Interface.SchDoc
 IsEnabled4=1
 SelectionScope4=All
-Order4=1
+Order4=10
 IndexEnabled4=0
 IndexStartValue4=1
 Suffix4=
-UniqueIDPath5=\ZLBBMNHP\JXOVICMI
-DocumentName5=InputISO_Block.SchDoc
+UniqueIDPath5=
+DocumentName5=Temporizador_V8_top.SchDoc
 IsEnabled5=1
-SelectionScope5=All
-Order5=3
+SelectionScope5=Only Selected Parts
+Order5=14
 IndexEnabled5=0
 IndexStartValue5=1
 Suffix5=
-UniqueIDPath6=\ZLBBMNHP\PIBKJJFW
+UniqueIDPath6=\ZLBBMNHP\OGWRKAFK
 DocumentName6=InputISO_Block.SchDoc
 IsEnabled6=1
 SelectionScope6=All
-Order6=6
+Order6=5
 IndexEnabled6=0
 IndexStartValue6=1
 Suffix6=
-UniqueIDPath7=\EYHFUZXW
-DocumentName7=Output_TAB.SchDoc
+UniqueIDPath7=\BHBDEAUD
+DocumentName7=uC_Interface.SchDoc
 IsEnabled7=1
 SelectionScope7=All
-Order7=8
+Order7=12
 IndexEnabled7=0
 IndexStartValue7=1
 Suffix7=
-UniqueIDPath8=\GIAEYAMI
-DocumentName8=Power_Block.SchDoc
+UniqueIDPath8=\ZLBBMNHP\YEQDRYOC
+DocumentName8=InputISO_Block.SchDoc
 IsEnabled8=1
 SelectionScope8=All
-Order8=9
+Order8=4
 IndexEnabled8=0
 IndexStartValue8=1
 Suffix8=
-UniqueIDPath9=\ZLBBMNHP
-DocumentName9=Sensors_Interface.SchDoc
+UniqueIDPath9=\GIAEYAMI
+DocumentName9=Power_Block.SchDoc
 IsEnabled9=1
 SelectionScope9=All
-Order9=10
+Order9=9
 IndexEnabled9=0
 IndexStartValue9=1
 Suffix9=
@@ -1579,11 +1593,11 @@ Order10=13
 IndexEnabled10=0
 IndexStartValue10=1
 Suffix10=
-UniqueIDPath11=
-DocumentName11=Temporizador_V8_top.SchDoc
+UniqueIDPath11=\ZLBBMNHP\JXOVICMI
+DocumentName11=InputISO_Block.SchDoc
 IsEnabled11=1
-SelectionScope11=Only Selected Parts
-Order11=14
+SelectionScope11=All
+Order11=3
 IndexEnabled11=0
 IndexStartValue11=1
 Suffix11=

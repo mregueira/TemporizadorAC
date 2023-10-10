@@ -1,0 +1,12 @@
+../Core/Src/main.c:121:5:main	2
+../Core/Src/main.c:191:6:SystemClock_Config	3
+../Core/Src/main.c:229:13:MX_TIM16_Init	2
+../Core/Src/main.c:261:13:MX_GPIO_Init	1
+../Core/Src/main.c:289:6:HAL_TIM_PeriodElapsedCallback	4
+../Core/Src/main.c:311:6:input_chk	10
+../Core/Src/main.c:342:6:proc_state_vars	13
+../Core/Src/main.c:393:6:main_sys	7
+../Core/Src/main.c:410:6:indicator_update	11
+../Core/Src/main.c:441:6:cool_process	16
+../Core/Src/main.c:492:6:heat_process	27
+../Core/Src/main.c:576:6:Error_Handler	1

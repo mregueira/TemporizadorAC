@@ -27,23 +27,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 00000028  00000000  00000000  00020028  2**0
                   CONTENTS, READONLY
- 12 .debug_info   00008d40  00000000  00000000  00020050  2**0
-                  CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 00001961  00000000  00000000  00028d90  2**0
-                  CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_aranges 00000a00  00000000  00000000  0002a6f8  2**3
-                  CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_ranges 00000938  00000000  00000000  0002b0f8  2**3
-                  CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  0000f855  00000000  00000000  0002ba30  2**0
-                  CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   0000af51  00000000  00000000  0003b285  2**0
-                  CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    0005f720  00000000  00000000  000461d6  2**0
-                  CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000053  00000000  00000000  000a58f6  2**0
+ 12 .comment      00000043  00000000  00000000  00020050  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00002384  00000000  00000000  000a594c  2**2
+ 13 .debug_info   00008322  00000000  00000000  00020093  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 14 .debug_abbrev 000019df  00000000  00000000  000283b5  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 15 .debug_aranges 00000a00  00000000  00000000  00029d98  2**3
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 16 .debug_rnglists 000007bf  00000000  00000000  0002a798  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 17 .debug_macro  0000f84f  00000000  00000000  0002af57  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 18 .debug_line   0000b596  00000000  00000000  0003a7a6  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 19 .debug_str    0005f73c  00000000  00000000  00045d3c  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 20 .debug_frame  00002384  00000000  00000000  000a5478  2**2
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 21 .debug_line_str 0000007b  00000000  00000000  000a77fc  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -323,8 +325,8 @@ int main(void)
  8000280:	e7fa      	b.n	8000278 <main+0x58>
  8000282:	46c0      	nop			; (mov r8, r8)
  8000284:	40022000 	.word	0x40022000
- 8000288:	20000060 	.word	0x20000060
- 800028c:	20000078 	.word	0x20000078
+ 8000288:	200000a8 	.word	0x200000a8
+ 800028c:	20000044 	.word	0x20000044
 
 08000290 <SystemClock_Config>:
 /**
@@ -343,14 +345,14 @@ void SystemClock_Config(void)
  800029c:	2330      	movs	r3, #48	; 0x30
  800029e:	001a      	movs	r2, r3
  80002a0:	2100      	movs	r1, #0
- 80002a2:	f002 fac3 	bl	800282c <memset>
+ 80002a2:	f002 fa9f 	bl	80027e4 <memset>
   RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
  80002a6:	003b      	movs	r3, r7
  80002a8:	0018      	movs	r0, r3
  80002aa:	2310      	movs	r3, #16
  80002ac:	001a      	movs	r2, r3
  80002ae:	2100      	movs	r1, #0
- 80002b0:	f002 fabc 	bl	800282c <memset>
+ 80002b0:	f002 fa98 	bl	80027e4 <memset>
 
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
@@ -492,7 +494,7 @@ static void MX_TIM16_Init(void)
  8000362:	46c0      	nop			; (mov r8, r8)
  8000364:	46bd      	mov	sp, r7
  8000366:	bd80      	pop	{r7, pc}
- 8000368:	20000078 	.word	0x20000078
+ 8000368:	20000044 	.word	0x20000044
  800036c:	40014400 	.word	0x40014400
  8000370:	00000c7f 	.word	0x00000c7f
  8000374:	00001387 	.word	0x00001387
@@ -513,7 +515,7 @@ static void MX_GPIO_Init(void)
  8000382:	2314      	movs	r3, #20
  8000384:	001a      	movs	r2, r3
  8000386:	2100      	movs	r1, #0
- 8000388:	f002 fa50 	bl	800282c <memset>
+ 8000388:	f002 fa2c 	bl	80027e4 <memset>
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOA_CLK_ENABLE();
@@ -664,11 +666,11 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
  800045e:	46bd      	mov	sp, r7
  8000460:	b002      	add	sp, #8
  8000462:	bd80      	pop	{r7, pc}
- 8000464:	20000078 	.word	0x20000078
- 8000468:	2000004a 	.word	0x2000004a
- 800046c:	20000046 	.word	0x20000046
- 8000470:	2000004c 	.word	0x2000004c
- 8000474:	20000048 	.word	0x20000048
+ 8000464:	20000044 	.word	0x20000044
+ 8000468:	20000092 	.word	0x20000092
+ 800046c:	2000008e 	.word	0x2000008e
+ 8000470:	20000094 	.word	0x20000094
+ 8000474:	20000090 	.word	0x20000090
 
 08000478 <input_chk>:
 
@@ -877,7 +879,7 @@ void input_chk(void)
  80005d6:	bd80      	pop	{r7, pc}
  80005d8:	20000010 	.word	0x20000010
  80005dc:	20000004 	.word	0x20000004
- 80005e0:	20000054 	.word	0x20000054
+ 80005e0:	2000009c 	.word	0x2000009c
 
 080005e4 <proc_state_vars>:
 
@@ -1087,14 +1089,14 @@ void proc_state_vars(void){
  8000724:	bd80      	pop	{r7, pc}
  8000726:	46c0      	nop			; (mov r8, r8)
  8000728:	20000004 	.word	0x20000004
- 800072c:	20000044 	.word	0x20000044
- 8000730:	20000050 	.word	0x20000050
+ 800072c:	2000008c 	.word	0x2000008c
+ 8000730:	20000098 	.word	0x20000098
  8000734:	20000000 	.word	0x20000000
- 8000738:	2000004e 	.word	0x2000004e
- 800073c:	2000004a 	.word	0x2000004a
- 8000740:	20000046 	.word	0x20000046
- 8000744:	2000004c 	.word	0x2000004c
- 8000748:	20000048 	.word	0x20000048
+ 8000738:	20000096 	.word	0x20000096
+ 800073c:	20000092 	.word	0x20000092
+ 8000740:	2000008e 	.word	0x2000008e
+ 8000744:	20000094 	.word	0x20000094
+ 8000748:	20000090 	.word	0x20000090
  800074c:	20000002 	.word	0x20000002
 
 08000750 <main_sys>:
@@ -1142,7 +1144,7 @@ void main_sys(void){
  8000786:	46c0      	nop			; (mov r8, r8)
  8000788:	46bd      	mov	sp, r7
  800078a:	bd80      	pop	{r7, pc}
- 800078c:	20000044 	.word	0x20000044
+ 800078c:	2000008c 	.word	0x2000008c
 
 08000790 <indicator_update>:
 
@@ -1309,9 +1311,9 @@ void indicator_update(void){
  80008b2:	46c0      	nop			; (mov r8, r8)
  80008b4:	46bd      	mov	sp, r7
  80008b6:	bdb0      	pop	{r4, r5, r7, pc}
- 80008b8:	2000004e 	.word	0x2000004e
+ 80008b8:	20000096 	.word	0x20000096
  80008bc:	20000004 	.word	0x20000004
- 80008c0:	20000044 	.word	0x20000044
+ 80008c0:	2000008c 	.word	0x2000008c
  80008c4:	20000000 	.word	0x20000000
 
 080008c8 <cool_process>:
@@ -1521,13 +1523,13 @@ void cool_process(void){
  80009fc:	46bd      	mov	sp, r7
  80009fe:	bd80      	pop	{r7, pc}
  8000a00:	20000002 	.word	0x20000002
- 8000a04:	2000004c 	.word	0x2000004c
- 8000a08:	20000048 	.word	0x20000048
- 8000a0c:	20000044 	.word	0x20000044
+ 8000a04:	20000094 	.word	0x20000094
+ 8000a08:	20000090 	.word	0x20000090
+ 8000a0c:	2000008c 	.word	0x2000008c
  8000a10:	20000004 	.word	0x20000004
  8000a14:	20000000 	.word	0x20000000
- 8000a18:	2000004a 	.word	0x2000004a
- 8000a1c:	20000046 	.word	0x20000046
+ 8000a18:	20000092 	.word	0x20000092
+ 8000a1c:	2000008e 	.word	0x2000008e
 
 08000a20 <heat_process>:
 
@@ -1864,9 +1866,9 @@ void heat_process(void){
  8000c1c:	20000000 	.word	0x20000000
  8000c20:	08002854 	.word	0x08002854
  8000c24:	20000004 	.word	0x20000004
- 8000c28:	2000004a 	.word	0x2000004a
- 8000c2c:	20000046 	.word	0x20000046
- 8000c30:	20000044 	.word	0x20000044
+ 8000c28:	20000092 	.word	0x20000092
+ 8000c2c:	2000008e 	.word	0x2000008e
+ 8000c30:	2000008c 	.word	0x2000008c
 
 08000c34 <Error_Handler>:
 /**
@@ -2124,7 +2126,7 @@ void TIM16_IRQHandler(void)
  8000d16:	46bd      	mov	sp, r7
  8000d18:	bd80      	pop	{r7, pc}
  8000d1a:	46c0      	nop			; (mov r8, r8)
- 8000d1c:	20000078 	.word	0x20000078
+ 8000d1c:	20000044 	.word	0x20000044
 
 08000d20 <SystemInit>:
   * @brief  Setup the microcontroller system
@@ -2221,7 +2223,7 @@ LoopFillZerobss:
 
 /* Call static constructors */
   bl __libc_init_array
- 8000d5a:	f001 fd43 	bl	80027e4 <__libc_init_array>
+ 8000d5a:	f001 fd4b 	bl	80027f4 <__libc_init_array>
 /* Call the application's entry point.*/
   bl main
  8000d5e:	f7ff fa5f 	bl	8000220 <main>
@@ -7334,48 +7336,48 @@ __weak void HAL_TIMEx_BreakCallback(TIM_HandleTypeDef *htim)
  80027e0:	b002      	add	sp, #8
  80027e2:	bd80      	pop	{r7, pc}
 
-080027e4 <__libc_init_array>:
- 80027e4:	b570      	push	{r4, r5, r6, lr}
- 80027e6:	2600      	movs	r6, #0
- 80027e8:	4d0c      	ldr	r5, [pc, #48]	; (800281c <__libc_init_array+0x38>)
- 80027ea:	4c0d      	ldr	r4, [pc, #52]	; (8002820 <__libc_init_array+0x3c>)
- 80027ec:	1b64      	subs	r4, r4, r5
- 80027ee:	10a4      	asrs	r4, r4, #2
- 80027f0:	42a6      	cmp	r6, r4
- 80027f2:	d109      	bne.n	8002808 <__libc_init_array+0x24>
- 80027f4:	2600      	movs	r6, #0
- 80027f6:	f000 f821 	bl	800283c <_init>
- 80027fa:	4d0a      	ldr	r5, [pc, #40]	; (8002824 <__libc_init_array+0x40>)
- 80027fc:	4c0a      	ldr	r4, [pc, #40]	; (8002828 <__libc_init_array+0x44>)
- 80027fe:	1b64      	subs	r4, r4, r5
- 8002800:	10a4      	asrs	r4, r4, #2
- 8002802:	42a6      	cmp	r6, r4
- 8002804:	d105      	bne.n	8002812 <__libc_init_array+0x2e>
- 8002806:	bd70      	pop	{r4, r5, r6, pc}
- 8002808:	00b3      	lsls	r3, r6, #2
- 800280a:	58eb      	ldr	r3, [r5, r3]
- 800280c:	4798      	blx	r3
- 800280e:	3601      	adds	r6, #1
- 8002810:	e7ee      	b.n	80027f0 <__libc_init_array+0xc>
- 8002812:	00b3      	lsls	r3, r6, #2
- 8002814:	58eb      	ldr	r3, [r5, r3]
- 8002816:	4798      	blx	r3
- 8002818:	3601      	adds	r6, #1
- 800281a:	e7f2      	b.n	8002802 <__libc_init_array+0x1e>
- 800281c:	080028a4 	.word	0x080028a4
- 8002820:	080028a4 	.word	0x080028a4
- 8002824:	080028a4 	.word	0x080028a4
- 8002828:	080028a8 	.word	0x080028a8
+080027e4 <memset>:
+ 80027e4:	0003      	movs	r3, r0
+ 80027e6:	1882      	adds	r2, r0, r2
+ 80027e8:	4293      	cmp	r3, r2
+ 80027ea:	d100      	bne.n	80027ee <memset+0xa>
+ 80027ec:	4770      	bx	lr
+ 80027ee:	7019      	strb	r1, [r3, #0]
+ 80027f0:	3301      	adds	r3, #1
+ 80027f2:	e7f9      	b.n	80027e8 <memset+0x4>
 
-0800282c <memset>:
- 800282c:	0003      	movs	r3, r0
- 800282e:	1882      	adds	r2, r0, r2
- 8002830:	4293      	cmp	r3, r2
- 8002832:	d100      	bne.n	8002836 <memset+0xa>
- 8002834:	4770      	bx	lr
- 8002836:	7019      	strb	r1, [r3, #0]
- 8002838:	3301      	adds	r3, #1
- 800283a:	e7f9      	b.n	8002830 <memset+0x4>
+080027f4 <__libc_init_array>:
+ 80027f4:	b570      	push	{r4, r5, r6, lr}
+ 80027f6:	2600      	movs	r6, #0
+ 80027f8:	4c0c      	ldr	r4, [pc, #48]	; (800282c <__libc_init_array+0x38>)
+ 80027fa:	4d0d      	ldr	r5, [pc, #52]	; (8002830 <__libc_init_array+0x3c>)
+ 80027fc:	1b64      	subs	r4, r4, r5
+ 80027fe:	10a4      	asrs	r4, r4, #2
+ 8002800:	42a6      	cmp	r6, r4
+ 8002802:	d109      	bne.n	8002818 <__libc_init_array+0x24>
+ 8002804:	2600      	movs	r6, #0
+ 8002806:	f000 f819 	bl	800283c <_init>
+ 800280a:	4c0a      	ldr	r4, [pc, #40]	; (8002834 <__libc_init_array+0x40>)
+ 800280c:	4d0a      	ldr	r5, [pc, #40]	; (8002838 <__libc_init_array+0x44>)
+ 800280e:	1b64      	subs	r4, r4, r5
+ 8002810:	10a4      	asrs	r4, r4, #2
+ 8002812:	42a6      	cmp	r6, r4
+ 8002814:	d105      	bne.n	8002822 <__libc_init_array+0x2e>
+ 8002816:	bd70      	pop	{r4, r5, r6, pc}
+ 8002818:	00b3      	lsls	r3, r6, #2
+ 800281a:	58eb      	ldr	r3, [r5, r3]
+ 800281c:	4798      	blx	r3
+ 800281e:	3601      	adds	r6, #1
+ 8002820:	e7ee      	b.n	8002800 <__libc_init_array+0xc>
+ 8002822:	00b3      	lsls	r3, r6, #2
+ 8002824:	58eb      	ldr	r3, [r5, r3]
+ 8002826:	4798      	blx	r3
+ 8002828:	3601      	adds	r6, #1
+ 800282a:	e7f2      	b.n	8002812 <__libc_init_array+0x1e>
+ 800282c:	080028a4 	.word	0x080028a4
+ 8002830:	080028a4 	.word	0x080028a4
+ 8002834:	080028a8 	.word	0x080028a8
+ 8002838:	080028a4 	.word	0x080028a4
 
 0800283c <_init>:
  800283c:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
